@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "drf_spectacular",
     # My Apps #
+    "user_snippet.accounts",
 ]
 
 MIDDLEWARE = [
@@ -65,6 +66,8 @@ DATABASES = {
         "PORT": "5432",
     }
 }
+
+AUTH_USER_MODEL = "accounts.AppUser"
 
 AUTH_PASSWORD_VALIDATORS = [
     {
