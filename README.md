@@ -19,7 +19,10 @@ Clone the repository.<br>
 Install project dependencies.<br>
 Customize the user model fields and profile as needed.<br>
 Run migrations: python manage.py migrate<br>
+
 Project Structure<br>
+
 The project is organized as follows:<br>
+
 accounts/: Contains the custom user model, profile model, serializers, and views.<br>
 helpers/: Includes utility functions used across the project.
