@@ -15,13 +15,14 @@ Optional API Documentation: Utilizes drf_spectacular to generate API documentati
 
 Getting Started
 
-Clone the repository.
-Install project dependencies.
-Customize the user model fields and profile as needed.
-Run migrations: python manage.py migrate
+Clone the repository.<br>
+Install project dependencies.<br>
+Customize the user model fields and profile as needed.<br>
+Run migrations: python manage.py migrate<br>
 
-Project Structure
-The project is organized as follows:
+Project Structure<br>
 
-accounts/: Contains the custom user model, profile model, serializers, and views.
+The project is organized as follows:<br>
+
+accounts/: Contains the custom user model, profile model, serializers, and views.<br>
 helpers/: Includes utility functions used across the project.
