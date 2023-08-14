@@ -3,7 +3,7 @@ User Snippet is a simple Django project designed to provide a reusable code snip
 Key Features
 Custom User Model: Utilizes a custom user model (AppUser) to enhance user authentication and management.
 
-Automatic Profile Creation: A UserProfile model is automatically created for each user upon registration, establishing a one-to-one relationship and avoiding hardcoded references.
+Automatic Profile Creation: A UserProfile model is automatically created for each user upon registration, establishing a one-to-one relationship and avoiding hardcoded references. By avoiding hardcoded references to the 'UserProfile' model, you ensure flexibility in your codebase. This means you can change the name of your 'UserProfile' model in the future without triggering database-related issues or requiring extensive code modifications. This  enhances maintainability and allows for seamless adjustments as your project evolves.
 
 Profile Slug Generation: The UserProfile includes an automatically generated unique slug based on the user's email address.
 
