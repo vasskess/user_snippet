@@ -101,5 +101,5 @@ REST_FRAMEWORK = {
 }
 
 SPECTACULAR_SETTINGS = {
-    "TITLE": "Testing Stuff",
+    "TITLE": "User Snippet",
 }
