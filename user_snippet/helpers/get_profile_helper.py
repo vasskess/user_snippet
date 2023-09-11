@@ -14,4 +14,4 @@ def get_profile_model():
     Returns:
         Model: The Profile model associated with the custom User model.
     """
-    return User._meta.get_field("profile").remote_field.model
+    return  return User.profile.related.related_model
